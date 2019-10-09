@@ -1,0 +1,10 @@
+<p>{{title}} works</p>
+<div style="margin-bottom: 5px;">
+  <button (click)="save()">save</button>
+</div>
+
+<ag-grid-angular style="width: 500px; height: 500px;" class="ag-theme-balham" [rowData]="rowData"
+  [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" (gridReady)="onGridReady($event)">
+</ag-grid-angular>
+
+<router-outlet></router-outlet>
