@@ -1,0 +1,267 @@
+public BypassCapacitorsColumnDefs: any[];
+public BypassCapacitorsColumnDefs: any[];
+this.BypassCapacitorsRowData = BypassCapacitors
+this.BypassCapacitorsColumnDefs = [{
+        field: 'Board',
+        headerName: 'Board'
+    },
+    {
+        field: 'RefDes',
+        headerName: 'RefDes'
+    },
+    {
+        field: 'CPN',
+        headerName: 'CPN',
+        editable: true
+    },
+    {
+        field: 'MPN',
+        headerName: 'MPN',
+        editable: true
+    },
+    {
+        field: 'PowerGroup',
+        headerName: 'PowerGroup',
+        editable: true
+    },
+    {
+        field: 'Decoupling_Requirement',
+        headerName: 'Decoupling_Requirement',
+        editable: true
+    },
+    {
+        field: 'Bypass_Cap',
+        headerName: 'Bypass_Cap',
+        editable: true
+    },
+    {
+        field: 'Ordering_Violation',
+        headerName: 'Ordering_Violation',
+        editable: true
+    },
+    {
+        field: 'Status',
+        headerName: 'Status',
+
+    },
+    {
+        field: 'Valid_Error',
+        headerName: 'Valid_Error',
+
+        cellRendererFramework: CheckboxRenderComponent
+    },
+    {
+        field: 'FixedStatus',
+        headerName: 'FixedStatus',
+        cellRendererFramework: CheckboxRenderComponent
+
+    },
+    {
+        field: 'UpdatedBy',
+        headerName: 'UpdatedBy'
+    },
+    {
+        field: 'Comments',
+        headerName: 'Comments',
+        cellRendererFramework: ScmacrendererComponent
+    }
+]
+
+public DCRDropRatioColumnDefs: any[];
+public DCRDropRatioColumnDefs: any[];
+this.DCRDropRatioRowData = DCRDropRatio
+this.DCRDropRatioColumnDefs = [{
+        field: 'Board',
+        headerName: 'Board'
+    },
+    {
+        field: 'RefDes',
+        headerName: 'RefDes'
+    },
+    {
+        field: 'CPN',
+        headerName: 'CPN',
+        editable: true
+    },
+    {
+        field: 'Category',
+        headerName: 'Category',
+        editable: true
+    },
+    {
+        field: 'Derived_Net',
+        headerName: 'Derived_Net',
+        editable: true
+    },
+    {
+        field: 'DCR',
+        headerName: 'DCR',
+        editable: true
+    },
+    {
+        field: 'Current',
+        headerName: 'Current',
+        editable: true
+    },
+    {
+        field: 'Voltage',
+        headerName: 'Voltage',
+        editable: true
+    },
+    {
+        field: 'Vdrop',
+        headerName: 'Vdrop',
+        editable: true
+    },
+    {
+        field: 'Drop_Ratio',
+        headerName: 'Drop_Ratio',
+
+    },
+    {
+        field: 'Valid_Error',
+        headerName: 'Valid_Error',
+
+        cellRendererFramework: CheckboxRenderComponent
+    },
+    {
+        field: 'FixedStatus',
+        headerName: 'FixedStatus',
+        cellRendererFramework: CheckboxRenderComponent
+
+    },
+    {
+        field: 'UpdatedBy',
+        headerName: 'UpdatedBy'
+    },
+    {
+        field: 'Comments',
+        headerName: 'Comments',
+        cellRendererFramework: ScmacrendererComponent
+    }
+]
+
+
+
+
+
+public i2cbuscalculationsColumnDefs: any[];
+public i2cbuscalculationsColumnDefs: any[];
+this.i2cbuscalculationsRowData = I2CBUSCALCULATIONS
+this.i2cbuscalculationsColumnDefs = [{
+        field: 'I2CBUS',
+        headerName: 'I2CBUS'
+    },
+    {
+        field: 'Instances',
+        headerName: 'Instances'
+    },
+    {
+        field: 'Cin',
+        headerName: 'Cin',
+        editable: true
+    },
+    {
+        field: 'Ctrace',
+        headerName: 'Ctrace',
+        editable: true
+    },
+    {
+        field: 'PullupResistor',
+        headerName: 'PullupResistor',
+        editable: true
+    },
+    {
+        field: 'PullupResistance',
+        headerName: 'PullupResistance',
+        editable: true
+    },
+    {
+        field: 'VoltageNet',
+        headerName: 'VoltageNet',
+        editable: true
+    },
+    {
+        field: 'Voltage',
+        headerName: 'Voltage',
+        editable: true
+    },
+    {
+        field: 'RpMinStandardMode100KHz',
+        headerName: 'RpMinStandardMode100KHz',
+        editable: true
+    },
+    {
+        field: 'RpMaxStandardMode100KHz',
+        headerName: 'RpMaxStandardMode100KHz',
+
+    },
+    {
+        field: 'StandardMode100KHz',
+        headerName: 'StandardMode100KHz'
+    },
+    {
+        field: 'RpMinFastMode400KHz',
+        headerName: 'RpMinFastMode400KHz'
+    },
+    {
+        field: 'RpMaxFastMode400KHz',
+        headerName: 'RpMaxFastMode400KHz',
+        editable: true
+    },
+    {
+        field: 'FastMode400KHz',
+        headerName: 'FastMode400KHz',
+        editable: true
+    },
+    {
+        field: 'RpMinFastModePlus1000KHz',
+        headerName: 'RpMinFastModePlus1000KHz',
+        editable: true
+    },
+    {
+        field: 'RpMaxFastModePlus1000KHz',
+        headerName: 'RpMaxFastModePlus1000KHz',
+        editable: true
+    },
+    {
+        field: 'FastModePlus1000KHz',
+        headerName: 'FastModePlus1000KHz',
+        editable: true
+    },
+    {
+        field: 'Comment',
+        headerName: 'Comment',
+        editable: true
+    },
+    {
+        field: 'UnknownDevices',
+        headerName: 'UnknownDevices',
+        editable: true
+    },
+    {
+        field: 'Willbefixed',
+        headerName: 'Willbefixed',
+        cellRendererFramework: CheckboxRenderComponent
+    },
+    {
+        field: 'Valid_Error',
+        headerName: 'Valid_Error',
+        cellRendererFramework: CheckboxRenderComponent
+    },
+    {
+        field: 'FixedStatus',
+        headerName: 'FixedStatus',
+        cellRendererFramework: CheckboxRenderComponent
+
+    },
+    {
+        field: 'UpdatedBy',
+        headerName: 'UpdatedBy'
+    },
+    {
+        field: 'Comments',
+        headerName: 'Comments',
+        cellRendererFramework: ScmacrendererComponent
+    }
+]
