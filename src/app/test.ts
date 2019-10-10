@@ -420,3 +420,11 @@ this.topGrid.api.forEachNode(function (rowNode, index) {
 this.bottomGrid.api.forEachNode(function (rowNode, index) {
     console.log('node ' + index + JSON.stringify(rowNode.data) + ' is in the grid');
 });
+
+
+// <ag-grid-angular #bottomGrid style="width: 100%; height: 350px;" class="ag-theme-balham" [columnDefs]="DCRDropRatioColumnDefs"
+//       [sideBar]="sideBar" [rowData]="DCRDropRatioRowData" [defaultColDef]="defaultColDef" [dateComponent]="'dateComponent'"
+//       [frameworkComponents]="frameworkComponents" floatingFilter suppressRowClickSelection rowSelection="multiple"
+//        [gridOptions]="bottomOptions" (modelUpdated)="onModelUpdated()" (cellClicked)="onCellClicked($event)"
+//       (cellDoubleClicked)="onCellDoubleClicked($event)" (cellContextMenu)="onCellContextMenu($event)">
+//     </ag-grid-angular>
