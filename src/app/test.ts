@@ -410,3 +410,13 @@ style = "min-height: 200px"
 [rowClassRules] = "rowClassRules"
     (gridReady) = "connectivityonGridReady($event)"
     > </ag-grid-angular>
+
+@ViewChild('topGrid', { static: false }) topGrid;
+@ViewChild('bottomGrid', { static: false }) bottomGrid;
+
+this.topGrid.api.forEachNode(function (rowNode, index) {
+    console.log('node ' + index + JSON.stringify(rowNode.data) + ' is in the grid');
+});
+this.bottomGrid.api.forEachNode(function (rowNode, index) {
+    console.log('node ' + index + JSON.stringify(rowNode.data) + ' is in the grid');
+});
